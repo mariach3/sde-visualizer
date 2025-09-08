@@ -921,7 +921,7 @@ def page_performance():
         help_block(
             "Help — What affects runtime?",
             (
-                "- Complexity grows roughly O(M·N).\n"
+                "- Complexity grows as M and N increase.\n"
                 "- Heston costs more per step (variance dynamics + correlation).\n"
                 "- Use fewer steps for quick exploration; increase M last for stability.\n"
             ),
